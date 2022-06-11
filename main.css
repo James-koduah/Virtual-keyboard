@@ -20,6 +20,8 @@ body{
     border: rgb(1, 28, 1) 5px solid;
     border-radius: 2vw;
     border-bottom-width: 6px;
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
 }
 #display p{
     
@@ -32,7 +34,7 @@ button{
     background-color: rgb(11, 163, 11);
     border-style:solid;
     border-width:1px;
-    border-radius: 9%;
+    border-radius: 0.8vw;
     width:76%w;
     height: 10vh;
     font-size: 1.4vw;
@@ -74,3 +76,30 @@ button{
     grid-gap:4px;
     margin-top: 00.4vw;
 }
+@media (max-width: 580px){
+    button{
+      position:relative;
+      height: 6vh;
+      font-size:0.1em;
+    }
+    body{
+      padding:0vw;
+    }
+  }
+  @media (max-width:450px){
+    button{
+      font-size:0.3em;
+      height:5vh;
+      padding:0px;
+    }
+    body{
+      padding:0vw;
+    }
+    #row1{grid-gap:2px;}
+    #row2{grid-gap:2px;}
+    #row3{grid-gap:2px;}
+    #row4{grid-gap:2px;}
+    #row5{grid-gap:2px;}
+    #row6{grid-gap:2px;}
+    
+  }
