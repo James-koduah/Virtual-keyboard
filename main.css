@@ -15,10 +15,17 @@ body{
     min-height:20vh;
     margin:auto;
     padding: 3vw;
-    color:white;
-    
+    background-color: aliceblue;
+    color:black;
+    border: rgb(1, 28, 1) 5px solid;
+    border-radius: 2vw;
+    border-bottom-width: 6px;
 }
-
+#display p{
+    
+    font-family: Bradley Hand ITC;
+    font-weight: 800;
+}
 
 button{
     position: relative;
