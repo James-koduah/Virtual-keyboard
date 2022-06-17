@@ -97,6 +97,10 @@
         height:6.5vh;
         padding:0px;
       }
+      #display{
+        width:80vw;
+        height:40vh;
+      }
       #keyboard{
         width:98vw;
         margin-bottom:0;
