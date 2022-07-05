@@ -118,3 +118,23 @@
       #row6{grid-gap:2px;}
       
     }
+    ::-webkit-scrollbar {
+      width: 1vw;
+    }
+    
+    /* Track */
+     ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey; 
+      background: black ;
+  }
+     
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(90deg,rgb(0, 253, 0),rgb(11, 163, 11),rgb(11, 163, 11),rgb(11, 163, 11),black) ;
+      border-radius: 10px;
+    }
+    
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #b30000; 
+    }
