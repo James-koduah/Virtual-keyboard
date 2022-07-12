@@ -35,12 +35,12 @@
                 <button onclick="func(this)">5</button>
                 <button onclick="func(this)">6</button>
                 <button onclick="func(this)">7</button>
-                <button id="ii" onclick="uu()">8</button>
+                <button onclick="func(this)">8</button>
                 <button onclick="func(this)">9</button>
-                <button onclick="func(this)">10</button>
+                <button onclick="func(this)">0</button>
                 <button onclick="func(this)">-</button>
                 <button onclick="func(this)">=</button>
-                <button class="back">Backspace</button>
+                <button onclick="backSpace()" class="back">Backspace</button>
                 <button onclick="func(this)">Home</button>
             </div>
             <div id="row3">
@@ -107,8 +107,12 @@
                 <button onclick="func(this)" class="last">→</button>
            </div>
         </div>
+        <div>
+            <input type="text" id="input" placeholder="font-family" >
+            <button id="fontSubmit" onclick="fontSubmit()">submit</button>
+        </div>
         <div contenteditable="true" id="display">
-            <p  id="aaa"></p>
+            <pre  id="aaa"></pre>
         </div>
 
 

@@ -3,7 +3,7 @@
     
   }
   body{
-      height:100vh;
+      min-height:100vh;
       background:linear-gradient(145deg,black,black,rgb(1, 29, 1),rgb(2, 94, 2),rgb(4, 116, 4),rgb(5, 85, 5),rgb(3, 58, 3),black);
       color:rgb(3, 83, 3);
       padding: 3vw;
@@ -28,10 +28,16 @@
       font-family: Bradley Hand ITC;
       font-weight: 800;
   }
-  #display p{
+  #display pre{
       
       font-family: Bradley Hand ITC;
       font-weight: 800;
+  }
+  #fontSubmit{
+    height: 10%;
+    border-radius: 0px;
+    box-shadow: none;
+    margin:0 0 0 0;
   }
   
   button{
@@ -45,6 +51,9 @@
       font-size: 1.4vw;
       color: white;
       box-shadow: -0.1em -0.1em 0.28em black,0.3em 0.3em 0.5em rgba(7, 241, 7, 0.644),0.1em 0.1em 0.2em black, -0.3em -0.3em 0.5em rgba(2, 243, 2, 0.918);
+  }
+  button:hover{
+    background-color: rgb(5, 223, 5);
   }
   #row1{
       display: grid;

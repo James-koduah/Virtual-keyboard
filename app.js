@@ -1,5 +1,6 @@
-
-  let caps=false;
+let fontFamily=document.getElementById('input')
+let para=document.getElementById('aaa')
+let caps=false;
 let hh=document.getElementById('aaa')
 function func(e){
   let elem = e.innerHTML.toLowerCase();
@@ -20,6 +21,16 @@ function func(e){
   }
   else{hh.innerHTML+=elem;}
   
-  
-  console.log(caps)
+}
+
+
+function backSpace(){
+  let gg=hh.innerHTML;
+  let mm=gg.slice(0,gg.length-1)
+  hh.innerHTML=mm
+}
+
+function fontSubmit(){
+  let value=fontFamily.value
+  para.style.fontFamily=value
 }
