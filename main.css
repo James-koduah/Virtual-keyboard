@@ -25,12 +25,12 @@
       border: rgb(1, 28, 1) 5px solid;
       border-radius: 2vw;
       border-bottom-width: 6px;
-      font-family: Bradley Hand ITC;
+      font-family: "Bradley Hand ITC";
       font-weight: 800;
   }
   #display pre{
       
-      font-family: Bradley Hand ITC;
+      font-family: "Bradley Hand ITC";
       font-weight: 800;
   }
   #fontSubmit{
