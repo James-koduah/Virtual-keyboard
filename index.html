@@ -1,123 +1,123 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Virtual keyboard</title>
-        <link rel="stylesheet" href="main.css">
-        <link rel="icon" href="logo.JPG" type="image/x-icon">
-    </head>
-    <body>
-        
-        <div id="keyboard">
-            <div id="row1" class="grid">
-                <button  >Esc</button>
-                <button  >F1</button>
-                <button  >F2</button>
-                <button  >F3</button>
-                <button  >F4</button>
-                <button >F5</button>
-                <button >F6</button>
-                <button >F7</button>
-                <button >F8</button>
-                <button >F9</button>
-                <button >F10</button>
-                <button >F11</button>
-                <button >F12</button>
-                <button >Insect</button>
-                <button >printScr</button>
-                <button >Delete</button>
-            </div>
-            <div id="row2" >
-                <button >~</button>
-                <button onclick="func(this)">1</button>
-                <button onclick="func(this)">2</button>
-                <button onclick="func(this)">3</button>
-                <button onclick="func(this)">4</button>
-                <button onclick="func(this)">5</button>
-                <button onclick="func(this)">6</button>
-                <button onclick="func(this)">7</button>
-                <button onclick="func(this)">8</button>
-                <button onclick="func(this)">9</button>
-                <button onclick="func(this)">0</button>
-                <button onclick="func(this)">-</button>
-                <button onclick="func(this)">=</button>
-                <button onclick="backSpace()" class="back">Backspace</button>
-                <button onclick="func(this)">Home</button>
-            </div>
-            <div id="row3">
-                <button class="tab">Tab</button>
-                <button onclick="func(this)">Q</button>
-                <button onclick="func(this)">W</button>
-                <button onclick="func(this)">E</button>
-                <button onclick="func(this)">R</button>
-                <button onclick="func(this)">T</button>
-                <button onclick="func(this)">Y</button>
-                <button onclick="func(this)">U</button>
-                <button onclick="func(this)">I</button>
-                <button onclick="func(this)">O</button>
-                <button onclick="func(this)">P</button>
-                <button onclick="func(this)">{</button>
-                <button onclick="func(this)">}</button>
-                <button class="slace">\</button>
-                <button onclick="func(this)">Pg Up</button>
-            </div>
-            <div id="row4" class="row three grid">
-                <button onclick="func(this)">Caps Lock</button>
-                <button onclick="func(this)">A</button>
-                <button onclick="func(this)">S</button>
-                <button onclick="func(this)">D</button>
-                <button onclick="func(this)">F</button>
-                <button onclick="func(this)">G</button>
-                <button onclick="func(this)">H</button>
-                <button onclick="func(this)">I</button>
-                <button onclick="func(this)">J</button>
-                <button onclick="func(this)">K</button>
-                <button onclick="func(this)">L</button>
-                <button onclick="func(this)">;</button>
-                <button onclick="func(this)">"</button>
-                <button class="enter-btn">Enter</button>
-                <button onclick="func(this)">Pg Dn</button>
-            </div>
-            <div id="row5" class="row four grid">
-                <button class="shift">Shift</button>
-                <button onclick="func(this)">Z</button>
-                <button onclick="func(this)">X</button>
-                <button onclick="func(this)">C</button>
-                <button onclick="func(this)">V</button>
-                <button onclick="func(this)">B</button>
-                <button onclick="func(this)">N</button>
-                <button onclick="func(this)">M</button>
-                <button onclick="func(this)"> < </button>
-                <button onclick="func(this)">></button>
-                <button onclick="func(this)">?</button>
-                <button class="shift">Shift</button>
-                <button onclick="func(this)">↑</button>
-                <button onclick="func(this)">End</button>
-            </div>
-            <div id="row6" class="row five grid">
-                <button onclick="func(this)" class="last">Ctrl</button>
-                <button onclick="func(this)" class="last">Fn</button>
-                <button onclick="func(this)" class="last">Win</button>
-                <button onclick="func(this)" class="last">Alt</button>
-                <button onclick="func(this)" class="space">space</button>
-                <button onclick="func(this)" class="last">Alt</button>
-                <button onclick="func(this)" class="last">Fn</button>
-                <button onclick="func(this)" class="last">Ctrl</button>
-                <button onclick="func(this)" class="last">←</button>
-                <button onclick="func(this)" class="last">↓</button>
-                <button onclick="func(this)" class="last">→</button>
-           </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="keyboard">
+        <div id="row1" class="grid">
+            <button  >Esc</button>
+            <button  >F1</button>
+            <button  >F2</button>
+            <button  >F3</button>
+            <button  >F4</button>
+            <button >F5</button>
+            <button >F6</button>
+            <button >F7</button>
+            <button >F8</button>
+            <button >F9</button>
+            <button >F10</button>
+            <button >F11</button>
+            <button >F12</button>
+            <button >Insect</button>
+            <button >printScr</button>
+            <button >Delete</button>
         </div>
-        <div>
-            <input type="text" id="input" placeholder="font-family" >
-            <button id="fontSubmit" onclick="fontSubmit()">submit</button>
+        <div id="row2" >
+            <button >~</button>
+            <button onclick="func(this)">1</button>
+            <button onclick="func(this)">2</button>
+            <button onclick="func(this)">3</button>
+            <button onclick="func(this)">4</button>
+            <button onclick="func(this)">5</button>
+            <button onclick="func(this)">6</button>
+            <button onclick="func(this)">7</button>
+            <button onclick="func(this)">8</button>
+            <button onclick="func(this)">9</button>
+            <button onclick="func(this)">0</button>
+            <button onclick="func(this)">-</button>
+            <button onclick="func(this)">=</button>
+            <button onclick="backSpace()" class="back">Backspace</button>
+            <button onclick="func(this)">Home</button>
         </div>
-        <div contenteditable="true" id="display">
-            <pre  id="aaa"></pre>
+        <div id="row3">
+            <button class="tab">Tab</button>
+            <button onclick="func(this)">Q</button>
+            <button onclick="func(this)">W</button>
+            <button onclick="func(this)">E</button>
+            <button onclick="func(this)">R</button>
+            <button onclick="func(this)">T</button>
+            <button onclick="func(this)">Y</button>
+            <button onclick="func(this)">U</button>
+            <button onclick="func(this)">I</button>
+            <button onclick="func(this)">O</button>
+            <button onclick="func(this)">P</button>
+            <button onclick="func(this)">{</button>
+            <button onclick="func(this)">}</button>
+            <button class="slace">\</button>
+            <button onclick="func(this)">Pg Up</button>
         </div>
+        <div id="row4" class="row three grid">
+            <button onclick="func(this)">Caps Lock</button>
+            <button onclick="func(this)">A</button>
+            <button onclick="func(this)">S</button>
+            <button onclick="func(this)">D</button>
+            <button onclick="func(this)">F</button>
+            <button onclick="func(this)">G</button>
+            <button onclick="func(this)">H</button>
+            <button onclick="func(this)">I</button>
+            <button onclick="func(this)">J</button>
+            <button onclick="func(this)">K</button>
+            <button onclick="func(this)">L</button>
+            <button onclick="func(this)">;</button>
+            <button onclick="func(this)">"</button>
+            <button class="enter-btn">Enter</button>
+            <button onclick="func(this)">Pg Dn</button>
+        </div>
+        <div id="row5" class="row four grid">
+            <button class="shift">Shift</button>
+            <button onclick="func(this)">Z</button>
+            <button onclick="func(this)">X</button>
+            <button onclick="func(this)">C</button>
+            <button onclick="func(this)">V</button>
+            <button onclick="func(this)">B</button>
+            <button onclick="func(this)">N</button>
+            <button onclick="func(this)">M</button>
+            <button onclick="func(this)"> < </button>
+            <button onclick="func(this)">></button>
+            <button onclick="func(this)">?</button>
+            <button class="shift">Shift</button>
+            <button onclick="func(this)">↑</button>
+            <button onclick="func(this)">End</button>
+        </div>
+        <div id="row6" class="row five grid">
+            <button onclick="func(this)" class="last">Ctrl</button>
+            <button onclick="func(this)" class="last">Fn</button>
+            <button onclick="func(this)" class="last">Win</button>
+            <button onclick="func(this)" class="last">Alt</button>
+            <button onclick="func(this)" class="space">space</button>
+            <button onclick="func(this)" class="last">Alt</button>
+            <button onclick="func(this)" class="last">Fn</button>
+            <button onclick="func(this)" class="last">Ctrl</button>
+            <button onclick="func(this)" class="last">←</button>
+            <button onclick="func(this)" class="last">↓</button>
+            <button onclick="func(this)" class="last">→</button>
+       </div>
+    </div>
+    <div>
+        <input type="text" id="input" placeholder="font-family" >
+        <button id="fontSubmit" onclick="fontSubmit()">submit</button>
+    </div>
+    <div contenteditable="true" id="display">
+        <pre  id="aaa"></pre>
+    </div>
 
 
 
-        
-        <script src="app.js"></script>
-    </body>
+    
+    <script src="app.js"></script>
+</body>
 </html>
