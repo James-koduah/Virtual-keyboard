@@ -32,12 +32,31 @@
       font-weight: 800;
   }
   #fontSubmit{
-    height: 10%;
+    height: 8%;
     border-radius: 0px;
     box-shadow: none;
     margin:0 0 0 0;
+    font-size: 1vw;
+    background-color: rgb(60, 60, 60);
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-top-color: rgb(60, 60, 60);
+    border-left-color: rgb(60, 60, 60);
+    
   }
   
+  #input{
+    background-color: rgb(28, 28, 28);
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: rgb(60, 60, 60);
+    border-right-color: rgb(60, 60, 60);
+  }
+
   button{
       position: relative;
       background-color: rgb(11, 163, 11);
@@ -103,6 +122,15 @@
         font-size:0.3em;
         height:6.5vh;
         padding:0px;
+      }
+      #fontSubmit{
+        height: 3vh;
+        width: 15vw;
+        font-size: 3vw;
+      }
+
+      #form{
+        margin-bottom: 4vh;
       }
       #display{
         width:80vw;
