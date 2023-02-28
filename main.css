@@ -4,14 +4,13 @@
   }
   body{
       min-height:100vh;
-      background:linear-gradient(145deg,black,black,rgb(1, 29, 1),rgb(2, 94, 2),rgb(4, 116, 4),rgb(5, 85, 5),rgb(3, 58, 3),black);
+      background-color: rgb(26, 26, 26);
+      /* background:linear-gradient(145deg,black,black,rgb(1, 29, 1),rgb(2, 94, 2),rgb(4, 116, 4),rgb(5, 85, 5),rgb(3, 58, 3),black); */
       color:rgb(3, 83, 3);
       padding: 3vw;
   }
   #keyboard{
       position: relative;
-      border-style: solid;
-      border-width:3px;
       margin-bottom: 5vh;
       
   }
@@ -20,17 +19,16 @@
       min-height:20vh;
       margin:auto;
       padding: 3vw;
-      background-color: aliceblue;
-      color:black;
+      background-color: rgb(0, 30, 56);
+      color:white;
       border: rgb(1, 28, 1) 5px solid;
       border-radius: 2vw;
       border-bottom-width: 6px;
-      font-family: "Bradley Hand ITC";
+      font-family: "Space Mono", monospace;
       font-weight: 800;
   }
   #display pre{
       
-      font-family: "Bradley Hand ITC";
       font-weight: 800;
   }
   #fontSubmit{
