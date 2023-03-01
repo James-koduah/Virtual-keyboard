@@ -1,36 +1,43 @@
-let fontFamily=document.getElementById('input')
-let para=document.getElementById('aaa')
-let caps=false;
-let hh=document.getElementById('aaa')
-function func(e){
-  let elem = e.innerHTML.toLowerCase();
-  if(caps===true){elem = e.innerHTML.toUpperCase();}
-  if(caps===false){elem=e.innerHTML.toLowerCase();}
+let fontFamily = document.getElementById('input')
+let display_text = document.getElementById('display_text')
+let capsLockOn = false;
+function func(keyboard_key){
+  let charcter
+  if(capsLockOn===true)
+    charcter = keyboard_key.innerHTML.toUpperCase();
+  else
+    charcter = keyboard_key.innerHTML.toLowerCase();
 
-  if(e.innerHTML=='Caps Lock'){
-    if(caps===true){
-      e.style.backgroundColor='rgb(11, 163, 11)'
-      return caps=false
-    }else{
-      e.style.backgroundColor ='white'
-      return caps=true
-    }
-  }else
-  if(e.innerHTML=='space'){
-    hh.innerHTML+=' '
+  if(keyboard_key.innerHTML=='space'){
+    return display_text.innerHTML+=' '
   }
-  else{hh.innerHTML+=elem;}
+  
+  
+  display_text.innerHTML += charcter;
   
 }
 
+function caplock(keyboard_key){
+  if (capsLockOn === false){
+    keyboard_key.style.backgroundColor ='white'
+    return capsLockOn=true
+  }
+  keyboard_key.style.backgroundColor='rgb(11, 163, 11)'
+  return capsLockOn=false
+}
+
+function enter(){
+  display_text.innerHTML+="<br>"
+}
 
 function backSpace(){
-  let gg=hh.innerHTML;
+  let gg=display_text.innerText;
   let mm=gg.slice(0,gg.length-1)
-  hh.innerHTML=mm
+  display_text.innerText=mm
 }
+
 
 function fontSubmit(){
   let value=fontFamily.value
-  para.style.fontFamily=value
+  display_text.style.fontFamily=value
 }

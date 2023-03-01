@@ -63,7 +63,7 @@
             <button onclick="func(this)">Pg Up</button>
         </div>
         <div id="row4" class="row three grid">
-            <button onclick="func(this)">Caps Lock</button>
+            <button onclick="caplock(this)">Caps Lock</button>
             <button onclick="func(this)">A</button>
             <button onclick="func(this)">S</button>
             <button onclick="func(this)">D</button>
@@ -76,7 +76,7 @@
             <button onclick="func(this)">L</button>
             <button onclick="func(this)">;</button>
             <button onclick="func(this)">"</button>
-            <button class="enter-btn">Enter</button>
+            <button onclick="enter()" class="enter-btn">Enter</button>
             <button onclick="func(this)">Pg Dn</button>
         </div>
         <div id="row5" class="row four grid">
@@ -88,7 +88,7 @@
             <button onclick="func(this)">B</button>
             <button onclick="func(this)">N</button>
             <button onclick="func(this)">M</button>
-            <button onclick="func(this)"> < </button>
+            <button onclick="func(this)"><</button>
             <button onclick="func(this)">></button>
             <button onclick="func(this)">?</button>
             <button class="shift">Shift</button>
@@ -114,7 +114,7 @@
         <button id="fontSubmit" onclick="fontSubmit()">Submit</button>
     </div>
     <div contenteditable="true" id="display">
-        <pre  id="aaa"></pre>
+        <pre  id="display_text"></pre>
     </div>
 
 
